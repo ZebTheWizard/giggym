@@ -1,0 +1,22 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "no-implicit-dependencies": false,
+    "jsx-boolean-value": ["always", { "never": ["exact"] }],
+    "jsx-no-lambda": ["always", { "never": ["onClick"] }],
+    "prettier": [true, "./.prettierrc"],
+    "interface-name": true,
+    "only-arrow-functions": false,
+    "no-submodule-imports": false,
+    "no-empty-interface": false,
+    "no-console": false,
+    "no-empty": false,
+    "class-name": true,
+    "max-line-length": false,
+    "max-classes-per-file": false,
+    "no-any": false
+  },
+  "rulesDirectory": ["tslint-plugin-prettier"]
+}
